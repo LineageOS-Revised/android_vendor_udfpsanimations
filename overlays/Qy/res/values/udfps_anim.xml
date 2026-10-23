@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="udfps_anim_name" translatable="false">Fizz</string>
+
+    <!-- Looping frames drawn while the finger is on the sensor. -->
+    <string name="kgd_osfingerprint_element_60fps_anim_name" translatable="false">kgd_fingerprint_element_60fps</string>
+    <integer name="kgd_osfingerprint_element_60fps_anim_frames">28</integer>
+    <!-- 0: 64ms, 1: 48ms, 2: 33ms, 3: 20ms, 4: 42ms per frame -->
+    <integer name="kgd_osfingerprint_element_anim_rate">3</integer>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.systemui.overlay.fingerprint.anim.xklc">
+
+    <overlay
+        android:targetPackage="com.android.systemui"
+        android:category="category.systemui.fingerprint.anim"
+        android:priority="1000"
+        android:isStatic="false" />
+
+    <application
+        android:label="@string/udfps_anim_name"
+        android:hasCode="false"
+        android:allowBackup="false">
+        <meta-data android:name="order" android:value="160" />
+        <meta-data android:name="fingerprint_icon" android:resource="@drawable/icon" />
+        <meta-data android:name="entrance_preview_icon" android:resource="@drawable/icon" />
+        <meta-data android:name="fingerprint_anim" android:resource="@raw/anim" />
+    </application>
+</manifest>

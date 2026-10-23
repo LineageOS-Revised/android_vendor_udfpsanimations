@@ -1,8 +1,12 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.udfps.animations=true
 
 PRODUCT_PACKAGES += \
-    UdfpsAnim_None \
     UdfpsAnim_Cosmos \
     UdfpsAnim_Fireworks \
     UdfpsAnim_Fy \
